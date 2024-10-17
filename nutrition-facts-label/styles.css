@@ -1,0 +1,41 @@
+/* UNIVERSAL */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* NUTRITION LABEL */
+.label {
+    width: 270px;
+    margin: 250px auto;
+    padding: 0px 7px;
+    border: 2px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: .15px;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    border-bottom: 1px solid darkgrey;
+    margin: 2px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
